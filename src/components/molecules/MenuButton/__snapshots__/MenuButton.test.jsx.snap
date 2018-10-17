@@ -1,0 +1,273 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MenuButton/> should render when not opened 1`] = `
+<Component
+  opened={false}
+>
+  <WithStyles(IconButton)
+    aria-label="Toggle Drawer"
+    color="inherit"
+  >
+    <IconButton
+      aria-label="Toggle Drawer"
+      classes={
+        Object {
+          "colorInherit": "MuiIconButton-colorInherit-2",
+          "colorPrimary": "MuiIconButton-colorPrimary-3",
+          "colorSecondary": "MuiIconButton-colorSecondary-4",
+          "disabled": "MuiIconButton-disabled-5",
+          "label": "MuiIconButton-label-6",
+          "root": "MuiIconButton-root-1",
+        }
+      }
+      color="inherit"
+      disabled={false}
+    >
+      <WithStyles(ButtonBase)
+        aria-label="Toggle Drawer"
+        centerRipple={true}
+        className="MuiIconButton-root-1 MuiIconButton-colorInherit-2"
+        disabled={false}
+        focusRipple={true}
+      >
+        <ButtonBase
+          aria-label="Toggle Drawer"
+          centerRipple={true}
+          className="MuiIconButton-root-1 MuiIconButton-colorInherit-2"
+          classes={
+            Object {
+              "disabled": "MuiButtonBase-disabled-8",
+              "focusVisible": "MuiButtonBase-focusVisible-9",
+              "root": "MuiButtonBase-root-7",
+            }
+          }
+          component="button"
+          disableRipple={false}
+          disableTouchRipple={false}
+          disabled={false}
+          focusRipple={true}
+          tabIndex="0"
+          type="button"
+        >
+          <button
+            aria-label="Toggle Drawer"
+            className="MuiButtonBase-root-7 MuiIconButton-root-1 MuiIconButton-colorInherit-2"
+            disabled={false}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex="0"
+            type="button"
+          >
+            <span
+              className="MuiIconButton-label-6"
+            >
+              <WithStyles(Icon)>
+                <Icon
+                  classes={
+                    Object {
+                      "colorAction": "MuiIcon-colorAction-13",
+                      "colorDisabled": "MuiIcon-colorDisabled-15",
+                      "colorError": "MuiIcon-colorError-14",
+                      "colorPrimary": "MuiIcon-colorPrimary-11",
+                      "colorSecondary": "MuiIcon-colorSecondary-12",
+                      "fontSizeInherit": "MuiIcon-fontSizeInherit-16",
+                      "fontSizeLarge": "MuiIcon-fontSizeLarge-18",
+                      "fontSizeSmall": "MuiIcon-fontSizeSmall-17",
+                      "root": "MuiIcon-root-10",
+                    }
+                  }
+                  color="inherit"
+                  component="span"
+                  fontSize="default"
+                >
+                  <span
+                    aria-hidden="true"
+                    className="material-icons MuiIcon-root-10"
+                  >
+                    keyboard_arrow_right
+                  </span>
+                </Icon>
+              </WithStyles(Icon)>
+            </span>
+            <WithStyles(TouchRipple)
+              center={true}
+              innerRef={[Function]}
+            >
+              <TouchRipple
+                center={true}
+                classes={
+                  Object {
+                    "child": "MuiTouchRipple-child-23",
+                    "childLeaving": "MuiTouchRipple-childLeaving-24",
+                    "childPulsate": "MuiTouchRipple-childPulsate-25",
+                    "ripple": "MuiTouchRipple-ripple-20",
+                    "ripplePulsate": "MuiTouchRipple-ripplePulsate-22",
+                    "rippleVisible": "MuiTouchRipple-rippleVisible-21",
+                    "root": "MuiTouchRipple-root-19",
+                  }
+                }
+              >
+                <TransitionGroup
+                  childFactory={[Function]}
+                  className="MuiTouchRipple-root-19"
+                  component="span"
+                  enter={true}
+                  exit={true}
+                >
+                  <span
+                    className="MuiTouchRipple-root-19"
+                  />
+                </TransitionGroup>
+              </TouchRipple>
+            </WithStyles(TouchRipple)>
+          </button>
+        </ButtonBase>
+      </WithStyles(ButtonBase)>
+    </IconButton>
+  </WithStyles(IconButton)>
+</Component>
+`;
+
+exports[`<MenuButton/> should render when opened 1`] = `
+<Component
+  opened={true}
+>
+  <WithStyles(IconButton)
+    aria-label="Toggle Drawer"
+    color="inherit"
+  >
+    <IconButton
+      aria-label="Toggle Drawer"
+      classes={
+        Object {
+          "colorInherit": "MuiIconButton-colorInherit-2",
+          "colorPrimary": "MuiIconButton-colorPrimary-3",
+          "colorSecondary": "MuiIconButton-colorSecondary-4",
+          "disabled": "MuiIconButton-disabled-5",
+          "label": "MuiIconButton-label-6",
+          "root": "MuiIconButton-root-1",
+        }
+      }
+      color="inherit"
+      disabled={false}
+    >
+      <WithStyles(ButtonBase)
+        aria-label="Toggle Drawer"
+        centerRipple={true}
+        className="MuiIconButton-root-1 MuiIconButton-colorInherit-2"
+        disabled={false}
+        focusRipple={true}
+      >
+        <ButtonBase
+          aria-label="Toggle Drawer"
+          centerRipple={true}
+          className="MuiIconButton-root-1 MuiIconButton-colorInherit-2"
+          classes={
+            Object {
+              "disabled": "MuiButtonBase-disabled-8",
+              "focusVisible": "MuiButtonBase-focusVisible-9",
+              "root": "MuiButtonBase-root-7",
+            }
+          }
+          component="button"
+          disableRipple={false}
+          disableTouchRipple={false}
+          disabled={false}
+          focusRipple={true}
+          tabIndex="0"
+          type="button"
+        >
+          <button
+            aria-label="Toggle Drawer"
+            className="MuiButtonBase-root-7 MuiIconButton-root-1 MuiIconButton-colorInherit-2"
+            disabled={false}
+            onBlur={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex="0"
+            type="button"
+          >
+            <span
+              className="MuiIconButton-label-6"
+            >
+              <WithStyles(Icon)>
+                <Icon
+                  classes={
+                    Object {
+                      "colorAction": "MuiIcon-colorAction-13",
+                      "colorDisabled": "MuiIcon-colorDisabled-15",
+                      "colorError": "MuiIcon-colorError-14",
+                      "colorPrimary": "MuiIcon-colorPrimary-11",
+                      "colorSecondary": "MuiIcon-colorSecondary-12",
+                      "fontSizeInherit": "MuiIcon-fontSizeInherit-16",
+                      "fontSizeLarge": "MuiIcon-fontSizeLarge-18",
+                      "fontSizeSmall": "MuiIcon-fontSizeSmall-17",
+                      "root": "MuiIcon-root-10",
+                    }
+                  }
+                  color="inherit"
+                  component="span"
+                  fontSize="default"
+                >
+                  <span
+                    aria-hidden="true"
+                    className="material-icons MuiIcon-root-10"
+                  >
+                    keyboard_arrow_left
+                  </span>
+                </Icon>
+              </WithStyles(Icon)>
+            </span>
+            <WithStyles(TouchRipple)
+              center={true}
+              innerRef={[Function]}
+            >
+              <TouchRipple
+                center={true}
+                classes={
+                  Object {
+                    "child": "MuiTouchRipple-child-23",
+                    "childLeaving": "MuiTouchRipple-childLeaving-24",
+                    "childPulsate": "MuiTouchRipple-childPulsate-25",
+                    "ripple": "MuiTouchRipple-ripple-20",
+                    "ripplePulsate": "MuiTouchRipple-ripplePulsate-22",
+                    "rippleVisible": "MuiTouchRipple-rippleVisible-21",
+                    "root": "MuiTouchRipple-root-19",
+                  }
+                }
+              >
+                <TransitionGroup
+                  childFactory={[Function]}
+                  className="MuiTouchRipple-root-19"
+                  component="span"
+                  enter={true}
+                  exit={true}
+                >
+                  <span
+                    className="MuiTouchRipple-root-19"
+                  />
+                </TransitionGroup>
+              </TouchRipple>
+            </WithStyles(TouchRipple)>
+          </button>
+        </ButtonBase>
+      </WithStyles(ButtonBase)>
+    </IconButton>
+  </WithStyles(IconButton)>
+</Component>
+`;

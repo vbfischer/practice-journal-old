@@ -1,28 +1,25 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import { createBrowserHistory } from 'history';
+import { Router, Route, Switch } from 'react-router-dom';
+
+import withRoot from 'withRoot';
+import indexRoutes from 'routes';
+
+const hist = createBrowserHistory();
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <Router history={hist}>
+        <Switch>
+          {indexRoutes.map(prop => {
+            return <Route path={prop.path} component={prop.component} key={prop.id} />;
+          })}
+        </Switch>
+      </Router>
     );
   }
 }
 
-export default App;
+export default withRoot(App);
