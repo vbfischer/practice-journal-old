@@ -1,5 +1,5 @@
 import MenuButton from './molecules/MenuButton/MenuButton';
-
+import Profile from './molecules/Profile/Profile';
 import MainTemplate from './templates/MainTemplate/MainTemplate';
 
 import DashboardPage from './pages/DashboardPage/DashboardPage';
@@ -18,5 +18,6 @@ export {
   MenuButton,
   Sidebar,
   SidebarItem,
-  NavSidebarItem
+  NavSidebarItem,
+  Profile
 };

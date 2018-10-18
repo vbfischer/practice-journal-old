@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import Button from '@material-ui/core/Button';
 import Drawer from '@material-ui/core/Drawer';
@@ -27,6 +28,11 @@ const Sidebar = ({ classes, heading, children, title }) => {
       </div>
     </Drawer>
   );
+};
+
+Sidebar.propTypes = {
+  heading: PropTypes.node,
+  title: PropTypes.string
 };
 
 const styles = theme => ({

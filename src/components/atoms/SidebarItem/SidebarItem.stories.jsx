@@ -28,13 +28,18 @@ storiesOf('1. Atoms / SidebarItem', module)
     })
   )
   .add('default item', () => (
-    <SidebarItem iconName={text('iconName', 'dashboard')} itemName={text('Caption', 'Dashboard')} />
+    <SidebarItem
+      iconName={text('iconName', 'dashboard')}
+      itemName={text('Caption', 'Dashboard')}
+      itemId="1"
+    />
   ))
   .add('With Nav Link', () => (
     <NavSidebarItem
       path="/path"
       iconName={text('iconName', 'dashboard')}
       itemName={text('Caption', 'Dashboard')}
+      itemId="1"
     />
   ))
   .add('With Nav Link Active', () => (
@@ -42,5 +47,6 @@ storiesOf('1. Atoms / SidebarItem', module)
       path="/active"
       iconName={text('iconName', 'dashboard')}
       itemName={text('Caption', 'Dashboard')}
+      itemId="1"
     />
   ));

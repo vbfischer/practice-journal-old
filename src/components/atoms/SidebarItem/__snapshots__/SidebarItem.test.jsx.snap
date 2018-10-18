@@ -35,7 +35,8 @@ exports[`<SidebarItem/> <NavSidebarItem/> should render nav 1`] = `
     }
   }
 >
-  <WithStyles(Component)
+  <NavSidebarItem
+    itemId="21"
     itemName="item"
     path="/path"
   />
@@ -43,8 +44,9 @@ exports[`<SidebarItem/> <NavSidebarItem/> should render nav 1`] = `
 `;
 
 exports[`<SidebarItem/> should correctly render the icon 1`] = `
-<WithStyles(Component)
+<SidebarItem
   iconName="icon"
+  itemId="1"
   itemName="item"
 >
   <Component
@@ -56,6 +58,7 @@ exports[`<SidebarItem/> should correctly render the icon 1`] = `
       }
     }
     iconName="icon"
+    itemId="1"
     itemName="item"
   >
     <WithStyles(ListItem)
@@ -238,7 +241,7 @@ exports[`<SidebarItem/> should correctly render the icon 1`] = `
       </ListItem>
     </WithStyles(ListItem)>
   </Component>
-</WithStyles(Component)>
+</SidebarItem>
 `;
 
 exports[`<SidebarItem/> should correctly render the name 1`] = `
@@ -267,6 +270,7 @@ exports[`<SidebarItem/> should render 1`] = `
       "itemText": "Component-itemText-3",
     }
   }
+  itemId="1"
   itemName="Item"
 />
 `;

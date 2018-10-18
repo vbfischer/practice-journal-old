@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Sidebar/> render children should match snapshot 1`] = `
+<Sidebar
+  classes={
+    Object {
+      "drawerPaper": "Sidebar-drawerPaper-1",
+      "drawerPaperClose": "Sidebar-drawerPaperClose-2",
+      "list": "Sidebar-list-6",
+      "logo": "Sidebar-logo-3",
+      "logoLink": "Sidebar-logoLink-4",
+      "toolbar": "Sidebar-toolbar-5",
+    }
+  }
+>
+  <Children />
+</Sidebar>
+`;
+
+exports[`<Sidebar/> render header should match snapshot 1`] = `
+<Sidebar
+  classes={
+    Object {
+      "drawerPaper": "Sidebar-drawerPaper-1",
+      "drawerPaperClose": "Sidebar-drawerPaperClose-2",
+      "list": "Sidebar-list-6",
+      "logo": "Sidebar-logo-3",
+      "logoLink": "Sidebar-logoLink-4",
+      "toolbar": "Sidebar-toolbar-5",
+    }
+  }
+  heading={
+    <div>
+      Heading...
+    </div>
+  }
+/>
+`;
+
+exports[`<Sidebar/> render title should match snapshot 1`] = `
+<Sidebar
+  classes={
+    Object {
+      "drawerPaper": "Sidebar-drawerPaper-1",
+      "drawerPaperClose": "Sidebar-drawerPaperClose-2",
+      "list": "Sidebar-list-6",
+      "logo": "Sidebar-logo-3",
+      "logoLink": "Sidebar-logoLink-4",
+      "toolbar": "Sidebar-toolbar-5",
+    }
+  }
+  title="The Title"
+/>
+`;
