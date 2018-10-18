@@ -7,7 +7,7 @@ import { withKnobs, text } from '@storybook/addon-knobs';
 import Button from '@material-ui/core/Button';
 import { Header } from '../../../components';
 
-storiesOf('3. Organisms | Header', module)
+storiesOf('3. Organisms / Header', module)
   .addDecorator(withKnobs)
   .add('Standard Header', () => (
     <Header

@@ -8,11 +8,11 @@ import { action } from '@storybook/addon-actions';
 import { MenuButton } from '../../../components';
 import { SidebarStateContext } from '../../../context';
 
-storiesOf('2. Molecules | MenuButton', module)
+storiesOf('2. Molecules / MenuButton', module)
   .addDecorator(withKnobs)
   .addDecorator(
     host({
-      title: 'Profile Component',
+      title: 'Menu Button',
       algin: 'center center',
       height: '80%',
       width: 260,
@@ -23,6 +23,16 @@ storiesOf('2. Molecules | MenuButton', module)
     <SidebarStateContext.Provider
       value={{
         opened: boolean('Opened', true),
+        toggleSidebarState: action('toggle sidebar state')
+      }}
+    >
+      <MenuButton />
+    </SidebarStateContext.Provider>
+  ))
+  .add('Menu Closed', () => (
+    <SidebarStateContext.Provider
+      value={{
+        opened: boolean('Opened', false),
         toggleSidebarState: action('toggle sidebar state')
       }}
     >

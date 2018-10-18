@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { MainTemplate, Header } from '../../../components';
+import { MainTemplate, Header } from '../..';
 
 import Typography from '@material-ui/core/Typography';
 

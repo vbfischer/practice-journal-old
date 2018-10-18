@@ -1,0 +1,272 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SidebarItem/> <NavSidebarItem/> should render nav 1`] = `
+<Router
+  history={
+    Object {
+      "action": "POP",
+      "block": [Function],
+      "canGo": [Function],
+      "createHref": [Function],
+      "entries": Array [
+        Object {
+          "hash": "",
+          "key": "1",
+          "path": "/random",
+          "pathname": "/",
+          "search": "",
+        },
+      ],
+      "go": [Function],
+      "goBack": [Function],
+      "goForward": [Function],
+      "index": 0,
+      "length": 1,
+      "listen": [Function],
+      "location": Object {
+        "hash": "",
+        "key": "1",
+        "path": "/random",
+        "pathname": "/",
+        "search": "",
+      },
+      "push": [Function],
+      "replace": [Function],
+    }
+  }
+>
+  <WithStyles(Component)
+    itemName="item"
+    path="/path"
+  />
+</Router>
+`;
+
+exports[`<SidebarItem/> should correctly render the icon 1`] = `
+<WithStyles(Component)
+  iconName="icon"
+  itemName="item"
+>
+  <Component
+    classes={
+      Object {
+        "item": "Component-item-1",
+        "itemIcon": "Component-itemIcon-2",
+        "itemText": "Component-itemText-3",
+      }
+    }
+    iconName="icon"
+    itemName="item"
+  >
+    <WithStyles(ListItem)
+      button={true}
+      className="Component-item-1"
+    >
+      <ListItem
+        ContainerComponent="li"
+        button={true}
+        className="Component-item-1"
+        classes={
+          Object {
+            "button": "MuiListItem-button-12",
+            "container": "MuiListItem-container-5",
+            "default": "MuiListItem-default-7",
+            "dense": "MuiListItem-dense-8",
+            "disabled": "MuiListItem-disabled-9",
+            "divider": "MuiListItem-divider-10",
+            "focusVisible": "MuiListItem-focusVisible-6",
+            "gutters": "MuiListItem-gutters-11",
+            "root": "MuiListItem-root-4",
+            "secondaryAction": "MuiListItem-secondaryAction-13",
+            "selected": "MuiListItem-selected-14",
+          }
+        }
+        dense={false}
+        disableGutters={false}
+        disabled={false}
+        divider={false}
+        selected={false}
+      >
+        <WithStyles(ButtonBase)
+          className="MuiListItem-root-4 MuiListItem-default-7 MuiListItem-gutters-11 MuiListItem-button-12 Component-item-1"
+          component="div"
+          disabled={false}
+          focusVisibleClassName="MuiListItem-focusVisible-6"
+        >
+          <ButtonBase
+            centerRipple={false}
+            className="MuiListItem-root-4 MuiListItem-default-7 MuiListItem-gutters-11 MuiListItem-button-12 Component-item-1"
+            classes={
+              Object {
+                "disabled": "MuiButtonBase-disabled-16",
+                "focusVisible": "MuiButtonBase-focusVisible-17",
+                "root": "MuiButtonBase-root-15",
+              }
+            }
+            component="div"
+            disableRipple={false}
+            disableTouchRipple={false}
+            disabled={false}
+            focusRipple={false}
+            focusVisibleClassName="MuiListItem-focusVisible-6"
+            tabIndex="0"
+            type="button"
+          >
+            <div
+              className="MuiButtonBase-root-15 MuiListItem-root-4 MuiListItem-default-7 MuiListItem-gutters-11 MuiListItem-button-12 Component-item-1"
+              onBlur={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              role="button"
+              tabIndex="0"
+            >
+              <WithStyles(ListItemIcon)
+                className="Component-itemIcon-2"
+                key=".0"
+              >
+                <ListItemIcon
+                  className="Component-itemIcon-2"
+                  classes={
+                    Object {
+                      "root": "MuiListItemIcon-root-31",
+                    }
+                  }
+                >
+                  <div
+                    className="MuiListItemIcon-root-31 Component-itemIcon-2"
+                  >
+                    <WithStyles(Icon)>
+                      <Icon
+                        classes={
+                          Object {
+                            "colorAction": "MuiIcon-colorAction-35",
+                            "colorDisabled": "MuiIcon-colorDisabled-37",
+                            "colorError": "MuiIcon-colorError-36",
+                            "colorPrimary": "MuiIcon-colorPrimary-33",
+                            "colorSecondary": "MuiIcon-colorSecondary-34",
+                            "fontSizeInherit": "MuiIcon-fontSizeInherit-38",
+                            "fontSizeLarge": "MuiIcon-fontSizeLarge-40",
+                            "fontSizeSmall": "MuiIcon-fontSizeSmall-39",
+                            "root": "MuiIcon-root-32",
+                          }
+                        }
+                        color="inherit"
+                        component="span"
+                        fontSize="default"
+                      >
+                        <span
+                          aria-hidden="true"
+                          className="material-icons MuiIcon-root-32"
+                        >
+                          icon
+                        </span>
+                      </Icon>
+                    </WithStyles(Icon)>
+                  </div>
+                </ListItemIcon>
+              </WithStyles(ListItemIcon)>
+              <WithStyles(ListItemText)
+                className="Component-itemText-3"
+                disableTypography={true}
+                key=".1"
+                primary="item"
+              >
+                <ListItemText
+                  className="Component-itemText-3"
+                  classes={
+                    Object {
+                      "dense": "MuiListItemText-dense-20",
+                      "inset": "MuiListItemText-inset-19",
+                      "primary": "MuiListItemText-primary-21",
+                      "root": "MuiListItemText-root-18",
+                      "secondary": "MuiListItemText-secondary-22",
+                      "textDense": "MuiListItemText-textDense-23",
+                    }
+                  }
+                  disableTypography={true}
+                  inset={false}
+                  primary="item"
+                >
+                  <div
+                    className="MuiListItemText-root-18 Component-itemText-3"
+                  >
+                    item
+                  </div>
+                </ListItemText>
+              </WithStyles(ListItemText)>
+              <WithStyles(TouchRipple)
+                center={false}
+                innerRef={[Function]}
+              >
+                <TouchRipple
+                  center={false}
+                  classes={
+                    Object {
+                      "child": "MuiTouchRipple-child-28",
+                      "childLeaving": "MuiTouchRipple-childLeaving-29",
+                      "childPulsate": "MuiTouchRipple-childPulsate-30",
+                      "ripple": "MuiTouchRipple-ripple-25",
+                      "ripplePulsate": "MuiTouchRipple-ripplePulsate-27",
+                      "rippleVisible": "MuiTouchRipple-rippleVisible-26",
+                      "root": "MuiTouchRipple-root-24",
+                    }
+                  }
+                >
+                  <TransitionGroup
+                    childFactory={[Function]}
+                    className="MuiTouchRipple-root-24"
+                    component="span"
+                    enter={true}
+                    exit={true}
+                  >
+                    <span
+                      className="MuiTouchRipple-root-24"
+                    />
+                  </TransitionGroup>
+                </TouchRipple>
+              </WithStyles(TouchRipple)>
+            </div>
+          </ButtonBase>
+        </WithStyles(ButtonBase)>
+      </ListItem>
+    </WithStyles(ListItem)>
+  </Component>
+</WithStyles(Component)>
+`;
+
+exports[`<SidebarItem/> should correctly render the name 1`] = `
+<div
+  class="MuiButtonBase-root-15 MuiListItem-root-4 MuiListItem-default-7 MuiListItem-gutters-11 MuiListItem-button-12 Component-item-1"
+  role="button"
+  tabindex="0"
+>
+  <div
+    class="MuiListItemText-root-18 Component-itemText-3"
+  >
+    Item
+  </div>
+  <span
+    class="MuiTouchRipple-root-24"
+  />
+</div>
+`;
+
+exports[`<SidebarItem/> should render 1`] = `
+<Component
+  classes={
+    Object {
+      "item": "Component-item-1",
+      "itemIcon": "Component-itemIcon-2",
+      "itemText": "Component-itemText-3",
+    }
+  }
+  itemName="Item"
+/>
+`;
