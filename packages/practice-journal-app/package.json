@@ -19,22 +19,13 @@
     "styled-components": "^3.4.10"
   },
   "scripts": {
-    "compile": "lerna run compile",
-    "clean": "lerna run clean",
-    "lint": "lerna run lint",
-    "test": "lerna run test",
-    "update-version": "lerna publish --skip-git --skip-npm --force-publish '*'",
-    "check-packages": "yarn clean && yarn compile && yarn test && yarn lint",
-    "publish-packages": "./scripts/publish",
     "start": "BROWSER='Google Chrome' react-scripts start",
+    "test": "react-scripts test --env=jsdom",
     "build": "react-scripts build",
     "eject": "react-scripts eject",
     "storybook": "BROWSER='Google Chrome' start-storybook -p 9009 -s public --ci",
     "build-storybook": "build-storybook -s public"
   },
-  "workspaces": [
-    "practice-journal-app"
-  ],
   "eslintConfig": {
     "extends": "react-app"
   },

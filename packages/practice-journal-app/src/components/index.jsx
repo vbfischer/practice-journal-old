@@ -6,8 +6,10 @@ import DashboardPage from './pages/DashboardPage/DashboardPage';
 
 import Header from './organisms/Header/Header';
 import Sidebar from './organisms/Sidebar/Sidebar';
+import Article from './organisms/Article/Article';
 
 import SidebarItem, { NavSidebarItem } from './atoms/SidebarItem/SidebarItem';
+import Staff from './atoms/Tabulature/Staff';
 import theme from './themes';
 
 export {
@@ -19,5 +21,7 @@ export {
   Sidebar,
   SidebarItem,
   NavSidebarItem,
-  Profile
+  Profile,
+  Article,
+  Staff
 };
